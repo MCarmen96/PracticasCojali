@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    font-style: normal;
+    font-family:'Valorant';
+}
+
+
+
+@font-face {
+    font-family: 'Valorant';
+    src: url('../assets/Valorant.ttf') ;
+}
+:root{
+    --color-nav:#fd4556;
+    --color-text: #ffffff;
+    --color-background:#33343a;
+    --color-hover:#36373d80;
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-text);
+    padding: 1rem;
+    background-color:var(--color-nav);
+    position: sticky;
+
+}
+
+.nav img{
+    margin-bottom: 1rem;
+    width: 6rem;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3, ease-in-out;
+    position: relative;
+
+}
+
+.menu li a:hover{
+    color: var(--color-card-background);
+    background-color:var(--color-hover) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+
+.tittle{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-align: center;
+    color: var(--color-text);
+}
+.tittle img{
+    width: 9rem;
+    height: auto;
+}
+.icon-user{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+}
+.icon-user a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3, ease-in-out;
+}
+.icon-user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    background-color: white; 
+}
+
+
+.icon-user a:hover{
+    color: var(--color-card-background);
+    background-color:var(--color-hover) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+body{
+    background-color: var(--color-background);
+    background-image:url("./Imagenes/background.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+
+.foot{
+    display: flex;
+    width: 100%;
+    padding:2rem;   
+    background-color:var(--color-nav);
+    bottom:0;
+    position:fixed;
+    justify-content: space-between;
+    align-items: center;
+}

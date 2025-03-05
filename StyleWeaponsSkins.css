@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    font-style: normal;
+    font-family:'Valorant';
+}
+:root{
+    --color-nav:#fd4556;
+    --color-text:#ffffff;
+    --color-card-background:#1e1f26;
+}
+body{
+    
+    background-image: url("./Img/VALORANT_Logo_V.jpg");
+
+}
+@font-face {
+    font-family: 'Valorant';
+    src: url('Fonts/Valorant.ttf') ;
+}
+.title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:var(--color-text);
+    margin-bottom: 5rem;
+    padding: 0.5rem;
+    background-color:var(--color-nav);
+    border-radius: 0.2rem;
+    
+   
+}
+
+.title img{
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: auto;
+}
+
+
+.skins-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.5rem));
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+
+.skin-card {
+    background-color:var(--color-card-background);
+    border-radius: 1rem;
+    border-style: solid;
+    border-color:var(--color-nav);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 1rem;
+}
+
+.skin-card:hover {
+    transform: scale(1.05);
+}
+
+
+.skin-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.skin-card h2 {
+    color:var(--color-text);
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+
+footer {
+    background-color:var(--color-nav);
+    text-align: center;
+    padding: 3rem;
+    margin-top:5rem;
+}
