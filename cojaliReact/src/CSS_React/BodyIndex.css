@@ -1,0 +1,81 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Valorant';
+}
+
+@font-face {
+    font-family: 'Valorant';
+    src: url('../assets/Valorant.ttf');
+}
+
+:root {
+    --color-nav: #fd4556;
+    --color-text: #ffffff;
+    --color-background: #33343a;
+    --color-hover: #36373d80;
+}
+
+.box1 {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+
+}
+.box2 {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+
+}
+.box3{
+
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+
+.texto {
+
+    background-color: #fd4556;
+    color: #ffffff;
+    flex: 1;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.texto h2 {
+
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.texto p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+}
+
+.imagen img {
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
