@@ -57,7 +57,8 @@
 
 .tittle{
     display: flex;
-    gap: 0.5rem;
+    
+    font-size: 2rem;
     align-items: center;
     text-align: center;
     color:#ffffff;
@@ -109,3 +110,16 @@ body{
     gap: 1.5rem;
 
 }
+.footer-right {
+    
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;       
+  }
+  .footer-left {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;       
+  }

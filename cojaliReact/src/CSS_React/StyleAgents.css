@@ -4,12 +4,7 @@
     font-style: normal;
     font-family:'Valorant';
 }
-:root{
-    --color-nav:#fd4556;
-    --color-text:#666666;
-    --color-card-background:#fffddf;
-    --color-title:#ffffff;
-}
+
 
 @font-face {
     font-family: 'Valorant';

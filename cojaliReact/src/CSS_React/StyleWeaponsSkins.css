@@ -4,16 +4,8 @@
     font-style: normal;
     font-family:'Valorant';
 }
-:root{
-    --color-nav:#fd4556;
-    --color-text:#ffffff;
-    --color-card-background:#1e1f26;
-}
-body{
-    
-    background-image: url("./Img/VALORANT_Logo_V.jpg");
 
-}
+
 @font-face {
     font-family: 'Valorant';
     src: url('Fonts/Valorant.ttf') ;
@@ -30,10 +22,10 @@ body{
 
 
 .skin-card {
-    background-color:var(--color-card-background);
+    background-color:#fffddf;
     border-radius: 1rem;
     border-style: solid;
-    border-color:var(--color-nav);
+    border-color:#fd4556;
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s;
@@ -52,7 +44,7 @@ body{
 
 
 .skin-card h2 {
-    color:var(--color-text);
+    color: #33343a;
     font-size: 1.2rem;
     padding-top: 0.5rem;
 }

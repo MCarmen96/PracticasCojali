@@ -7,6 +7,9 @@ function FooterBar() {
     return (
         <footer className="footer">
            
+           <div className='footer-left'>
+            <p>I.E.S Gregorio Prieto</p>
+            </div>
 
             <div className="footer-center">
                 <a href="https://www.linkedin.com/in/maricarmengarcianavarro19/" target="_blank">
@@ -30,6 +33,10 @@ function FooterBar() {
                     <FontAwesomeIcon icon={faArtstation} size="2x" style={{ color: '#ffff' }} />
                 </a>
             </div>
+            <div className='footer-right'>
+            <p>M.Carmen Garcia 1ºDAW</p>
+            </div>
+            
 
            
         </footer>

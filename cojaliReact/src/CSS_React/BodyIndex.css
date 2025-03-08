@@ -12,12 +12,7 @@
     src: url('../assets/Valorant.ttf');
 }
 
-:root {
-    --color-nav: #fd4556;
-    --color-text: #ffffff;
-    --color-background: #33343a;
-    --color-hover: #36373d80;
-}
+
 
 .box1 {
     flex-wrap: wrap;

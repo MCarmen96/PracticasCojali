@@ -5,9 +5,8 @@ function BodyIndex() {
                 <div className="texto">
                     <h2>AGENTS</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-                        voluptatem soluta cupiditate beatae sunt enim excepturi esse tempora
-                        consequatur dignissimos.
+                        In this section we can see the characters of the game with 
+                        a brief description of the essence and style of each of the characters
                     </p>
                 </div>
 
@@ -25,21 +24,11 @@ function BodyIndex() {
                 </div>
 
                 <div className="texto">
-                    <h2>WEAPONS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h2>WEAPONS AND WEAPONS SKINS</h2>
+                    <p>In this section we can see the weapons with their respective categories within the video game, the distance range of each weapon, the damage it causes in each part of the body</p>
                 </div>
             </section>
 
-            <section className="box3">
-                <div className="texto" id="about">
-                    <h2>About me</h2>
-                    <p></p>
-                </div>
-
-                <div className="imagen">
-                    <img src="/about-image.png" alt="About" />
-                </div>
-            </section>
         </>
     );
 }

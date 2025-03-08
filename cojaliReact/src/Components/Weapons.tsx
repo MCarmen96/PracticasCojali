@@ -23,9 +23,9 @@ interface WeaponData {
 }
 
 function Weapons() {
-  // Estado para almacenar la lista de armas
+  
   const [weapons, setWeapons] = useState<WeaponData[]>([]);
-  // Estado para manejar la carga (loading) y los errores
+ 
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -33,7 +33,7 @@ function Weapons() {
     fetch("https://valorant-api.com/v1/weapons")
       .then((response) => response.json())
       .then((data) => {
-        // Guardamos los datos de las armas en el estado
+       
         setWeapons(data.data);
         setLoading(false);
       })
@@ -44,11 +44,11 @@ function Weapons() {
       });
   }, []);
 
-  // Manejamos los estados de carga y error
+  
   if (loading) return <p>Loading weapons...</p>;
   if (error) return <p>{error}</p>;
 
-  // Renderizamos una lista de WeaponCard, una por cada arma
+  
   return (
     <div className="weapons-container">
       {weapons.map((weapon) => (
