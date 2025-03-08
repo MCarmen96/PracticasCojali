@@ -11,12 +11,7 @@
     font-family: 'Valorant';
     src: url('../assets/Valorant.ttf') ;
 }
-:root{
-    --color-nav:#33343a;
-    --color-text: #ffffff;
-    --color-background:#ffffff;
-    --color-hover:#fd4556;
-}
+
 
 
 .nav{
@@ -25,18 +20,13 @@
     align-items: center;
     justify-content: space-between;
     color: #ffffff;
-    padding: 1rem;
+    padding: 2rem;
     background-color:#33343a;
     position: sticky;
     top: 0;
+    z-index: 9999;
     flex-wrap: wrap;
 
-}
-
-.nav img{
-    margin-bottom: 1rem;
-    width: 6rem;
-    height: auto;
 }
 
 .menu {
@@ -44,10 +34,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+
 }
 .menu li a{
     text-decoration: none;
-    color: var(--color-text);
+    color: #ffffff;
     font-weight: bold;
     font-size: 1rem;
     transition: color 0.3, ease-in-out;
@@ -69,42 +60,24 @@
     gap: 0.5rem;
     align-items: center;
     text-align: center;
-    color: var(--color-text);
+    color:#ffffff;
 }
-.tittle img{
-    width: 9rem;
-    height: auto;
-}
+
 .icon-user{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
-    list-style: none;
+    justify-content:flex-end;
+    
 }
-.icon-user a{
-    text-decoration: none;
-    color: var(--color-text);
-    font-weight: bold;
-    font-size: 1rem;
-    transition: color 0.3, ease-in-out;
-}
-.icon-user img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%; 
-    background-color: white; 
-}
+.icon-user img{
 
-
-.icon-user a:hover{
-    color: var(--color-card-background);
-    background-color:var(--color-hover) ;
-    padding: 5px 10px;
-    border-radius: 5px;
+    width: 5rem;
+    height: auto;
 
 }
 body{
-    background-color:#ece8e1;
+    background-color:#e7e7e6;
     overflow-x: hidden;
 }
 
@@ -114,37 +87,25 @@ body{
     padding:2rem;   
     background-color:#33343a;
     bottom:0;
+    position: relative;
+    z-index: 9999; 
     color: #ffffff;
     text-align: center;
     justify-content: space-between;
     align-items: center;
 }
-.footer-left,.footer-right{
 
-
-    flex: 1;
+.footer-left{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5rem;
-
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 0.5rem; 
 }
 
 .footer-center{
-
     flex: 1;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 
-}
-.footer-center img,
-.footer-right img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s ease-in-out;
-}
-.footer-center img:hover,
-.footer-right img:hover {
-    transform: scale(1.1);
 }

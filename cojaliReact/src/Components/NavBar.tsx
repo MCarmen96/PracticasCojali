@@ -1,39 +1,33 @@
+import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
-    <>
-      <div className="nav">
-        <ul className="menu">
-          <li>
-            <a href="">Inicio</a>
-          </li>
-          <li>
-            <a href="./ValorantCards.html">Agents</a>
-          </li>
-          <li>
-            <a href="./ValorantWeaponsSkins.html">Weapons Skins</a>
-          </li>
-          <li>
-            <a href="./ValorantWeapons.html">Weapons</a>
-          </li>
-        </ul>
+    <nav className="nav">
+      <ul className="menu">
+        <li>
+          <Link to="/">Inicio</Link>
+        </li>
+        <li>
+          <Link to="/agents">Agents</Link>
+        </li>
+        <li>
+          <Link to="/weapon-skins">Weapons Skins</Link>
+        </li>
+        <li>
+          <Link to="/weapons">Weapons</Link>
+        </li>
+      </ul>
 
-        <div className="tittle">
-          <h1>Valorant</h1>
-          <img src="./Img/V_Logomark_White.png" alt="" />
-        </div>
-
-        <div className="icon-user">
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-          <img src="" alt="icono user" />
-        </div>
+      <div className="tittle">
+        <h1>Valorant</h1>
       </div>
-    </>
+
+      <div className="icon-user">
+        <img src="/V_Logomark_White.png" alt="" />
+      </div>
+    </nav>
   );
 }
 
 export default NavBar;
+
