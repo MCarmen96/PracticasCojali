@@ -73,7 +73,7 @@ export default Agents;
 
 ```
 
-## Contacto ☎
+## Contacto 📞
 Para dudas, sugerencias o colaboración, puedes contactarme a través de:
 - **Email:** 
 - **GitHub:** [MCarmen96](https://github.com/MCarmen96)
