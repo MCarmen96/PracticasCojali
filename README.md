@@ -4,11 +4,6 @@ En esta web se integran 3 endpoints de la API de Valorant para mostrar informaci
 ## Enlace en linea
 ¡Puedes ver la aplicación en funcionamiento en Vercel!
 [ValorantApi](https://practicas-cojali.vercel.app/)
-## Tabla de Contenido 📑
-- [Tecnologías y Herramientas](#tecnologías-y-herramientas) 
-- [Integración de la API](#integración-de-la-api)
--  [Ejemplo de código](#uso-y-ejemplos) 
-- [Contacto](#contacto)
 
 ## Tecnologías y Herramientas ⚙🛠
 - **React**: Biblioteca para construir la interfaz de usuario. 
@@ -80,5 +75,5 @@ export default Agents;
 
 ## Contacto ☎
 Para dudas, sugerencias o colaboración, puedes contactarme a través de:
-- **Email:** carmengarcianavarro19@gmail.com
+- **Email:** 
 - **GitHub:** [MCarmen96](https://github.com/MCarmen96)
