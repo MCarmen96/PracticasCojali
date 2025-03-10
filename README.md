@@ -75,5 +75,5 @@ export default Agents;
 
 ## Contacto 📞
 Para dudas, sugerencias o colaboración, puedes contactarme a través de:
-- **Email:** 
+- **Email:** carmengarcianavarro19@gmail.com
 - **GitHub:** [MCarmen96](https://github.com/MCarmen96)
